@@ -150,7 +150,7 @@ Skift nu hvor skarpt robotten drejer til **100**. Hvor mange omgange kører den?
 
 ### ANTAL omgange: _______
 
-# Byggeeksempel: skraber & klo<a name="byggeeks"></a>
+# Byggeeksempel: skraber & klo<a name="byggeeks"></a>[[indhold]](#indhold)
 
 ![](byg-skraber.jpg)
 
