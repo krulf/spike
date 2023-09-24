@@ -1,12 +1,28 @@
-# LEGO ROBOT SPACE ACADEMY
+# ROBOT SPACE ACADEMY
 
 ## Indhold
 1. [Byg robotten](#Byg)
-2. 
-2. 
+2. [Forbind robotten](#forbind)
+3. [Kategori: bevægelse](#bev)
+	* [Opgave 1: bevæg i en lige linje](#opg1)
+	* [Opgave 2: bevæg præcist langs pap](#opg2)
+	* [Opgave 3: bevæg i 90 graders sving](#opg3)
+	* [Opgave 4: bevæg i en firkant](#opg4)
+	* [Opgave 5: bevæg i en cirkel](#opg5)
+4. [Byggeeksempel: skraber & klo](#byggeeks)
+5. [EKSTRA1: Ultralydsensor (LYSEBLÅ)](#ekstra)
+	* [Opgave 6: ultralyd-sensor](#opg6)
+6. [EKSTRA2: Selvkørende robot med ultralyd](#autonom)
+	* [Opgave 7: motorstyring - kør lige](#opg7)
+	* [Opgave 8: motorstyring - lav et sving](#opg8)
+	* [Opgave 9: robot der ikke kører ind i noget](#opg9)
+	* [Opgave 10: mere tilfældighed!](#opg10)
+	* [Opgave 11: endnu mere tilfældighed :-)](#opg11)
+7. [EKSTRA3: Farvesensor](#farvesensor)
+	* [Opgave 12: styr robotten med farvesensoren](#opg12)
 
 
-## Byg <a name="byg"></a>
+## Byg robotten <a name="byg"></a>
 
 Byg en robot med tre hjul sat på en hub (robottens krop): 2 motorer og 1 drejehjul - ligesome denne:
 
@@ -26,7 +42,7 @@ Forbind motoren til hubben:
 
 ### Så er du klar!
 
-#### Forbind motorerne til stik A og B
+#### Forbind motorerne til stik A og B <a name="forbind"></a>
 
 Forbind til robotten med bluetooth eller usb kabel.
 
@@ -48,11 +64,11 @@ Når du er forbundet ser det sådan her ud i toppen af vinduet:
 
 ![](tilslut-status.png)
 
-# Brug kategori lyserød/bevægelse
+# Brug kategori lyserød/bevægelse<a name="bev"></a>
 
 I løbet af 3 opgaver skal I mestre bevægelses blokkene. I skal programmere robotten til at køre lige ud, dreje 90 grader og køre rundt i firkant og endelig køre rundt i en cirkel.
 
-## Opgave 1: bevæg i en lige linje
+## Opgave 1: bevæg i en lige linje<a name="opg1"></a>
 
 Under beægelse skal du bruge, disse tre blokke for at få robotten til at køre i en lige linje:
 
@@ -74,7 +90,7 @@ Du starter programmet ved at trykke på pilen i nederste højre hjørne:
 
 ![](spike-UI-overview.png)
 
-## Opgave 2: bevæg præcist så meget som pappet
+## Opgave 2: bevæg præcist langs pap<a name="opg2"></a>
 
 Få nu robotten til at bevæge sig præcist så langt som pappet fra kassen:
 
@@ -84,7 +100,7 @@ Hvor mange cm skal den køre?
 
 ### Antal cm, kort side: ________
 
-## Opgave 3: bevæg i 90 graders sving
+## Opgave 3: bevæg i 90 graders sving<a name="opg3"></a>
 
 Du skal have robotten til at bevæge sig rundt på pappet, som vist her:
 
@@ -111,7 +127,7 @@ Under bevægelse skal du bruge "bevæg [retning] [50] [omdrejninger]":
 
 Lav nu et program så robotten kører frem drejer 90 grader og kører frem.
 
-## Opgave 4: bevæg i en firkant
+## Opgave 4: bevæg i en firkant<a name="opg4"></a>
 
 * Få nu robotten til at lave to 90° sving, hvor den kører lige imellem, så den kører i en firkant og ender samme sted som den startede:
 
@@ -119,7 +135,7 @@ Lav nu et program så robotten kører frem drejer 90 grader og kører frem.
 
 I vil måske få brug for at justere hvor mange omgange motorens skal tage for at lave et 90 graders sving. Noter tallet når I har fundet ud af hvor amnge omdrejninger præcist er 90°!
 
-## Opgave 5: bevæg i en cirkel
+## Opgave 5: bevæg i en cirkel<a name="opg5"></a>
 
 * Få robotten til at køre rundt i en cirkel, så den stopper det sted den startede. Find ud af hvor mange omdrejninger den skal køre.
 
@@ -134,7 +150,7 @@ Skift nu hvor skarpt robotten drejer til **100**. Hvor mange omgange kører den?
 
 ### ANTAL omgange: _______
 
-# Eksempel: skraber & klo
+# Byggeeksempel: skraber & klo<a name="byggeeks"></a>
 
 ![](byg-skraber.jpg)
 
@@ -144,9 +160,9 @@ Skift nu hvor skarpt robotten drejer til **100**. Hvor mange omgange kører den?
 
 ![](byg-skraber-klo-monteret.jpg)
 
-# EKSTRA: Sensor (LYSEBLÅ)
+# Ultralydsensor (LYSEBLÅ)<a name="ekstra"></a>
 
-## Opgave 6: ultralyd-sensor
+## Opgave 6: ultralyd-sensor<a name="opg6"></a>
 
 Tilslut ultralydsensoren i port **D**.
 
@@ -180,9 +196,9 @@ Det færdige program ser sådan her ud. Find ud af hvor meget I skal trække fra
 
 ![](kør-tilkasse.png)
 
-# Selvkørende robot med ultralyd
+# Selvkørende robot med ultralyd<a name="autonom"></a>
 
-## Opgave 7: motorstyring - kør lige
+## Opgave 7: motorstyring - kør lige<a name="opg7"></a>
 
 For at lave en selvkørende robot skal I have styr på at styre motorerne direkte. Lav et program hvor I kører med motorerne A og B i 2 sekunder, så robotten kører i en lige linje. Brug disse blokke:
 
@@ -202,7 +218,7 @@ Programmet skrevet med almindelige ord er sådan:
 * Vent 2 sekunder
 * A+B stop motor
 
-## Opgave 8: motorstyring - lav et sving
+## Opgave 8: motorstyring - lav et sving<a name="opg8"></a>
 
 Når robotten har kørt i 2 sekunder skal den dreje og køre i en anden retning.
 
@@ -219,7 +235,7 @@ Med samme blokke som sidste opgave lave nu følgende program med blokke til at s
 * Vent 0.5 sekunder
 * A+B stop motor
 
-## Opgave 9: robot der ikke kører ind i noget
+## Opgave 9: robot der ikke kører ind i noget<a name="opg9"></a>
 
 Programmer nu robotten til at køre rundt uden at støde ind i noget. Brug ultralydsensoren til at tjekke om der er noget tæt på.
 
@@ -256,13 +272,13 @@ Skriver vi koden med ord ser det sådan ud:
     + A Start motor, retning: venstre
     + B Start motor, retning: højre
 
-## Opgave 10: mere tilfældighed!
+## Opgave 10: mere tilfældighed!<a name="opg10"></a>
 
 Prøv nu at ændre hvordan den gør ved at sætte tilfældige tal ind i ventetider. Den første blok under GRØN/ OPERATORER hedder "vælg tilfældigt tal mellem TAL og TAL":
 
 ![](operatorer-random.png)
 
-## Opgave 11: endnu mere tilfældighed :-)
+## Opgave 11: endnu mere tilfældighed :-)<a name="opg11"></a>
 
 Kan du gøre det tilfældigt om den drejer til den ene eller den anden side - bliv inspireret af følgende kode skrevet med ord:
 
@@ -275,7 +291,9 @@ Brug disse blokke:
 
 ![](autonom-robot-random-sving.png)
 
-## Opgave 12: styr robotten med farvesensoren
+# Farvesensor<a name="farvesensor"></a>
+
+## Opgave 12: styr robotten med farvesensoren<a name="opg12"></a>
 
 ![](sensor-farve-monteret.jpg)
 
