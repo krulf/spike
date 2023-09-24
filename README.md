@@ -21,6 +21,10 @@
 7. [EKSTRA3: Farvesensor](#farvesensor)
 	* [Opgave 12: styr robotten med farvesensoren](#opg12)
 
+### Links
+- Lego Spike web: [https://spike.legoeducation.com/prime](https://spike.legoeducation.com/prime)
+- Lego Spike software: [https://education.lego.com/en-us/downloads/spike-app/software/](https://education.lego.com/en-us/downloads/spike-app/software/)
+- Lego Robot Inventor software: [https://apps.microsoft.com/store/detail/9MTQ0N7W1D6X](https://apps.microsoft.com/store/detail/9MTQ0N7W1D6X)
 
 ## Byg robotten <a name="byg"></a>[[indhold]](#indhold)
 
