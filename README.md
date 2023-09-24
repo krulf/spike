@@ -2,17 +2,19 @@
 
 Byg en robot med tre hjul sat på en hub (robottens krop): 2 motorer og 1 drejehjul - ligesome denne:
 
-![](spike-robot.jpeg)
+![](spike-robot.jpg)
 
 Forbind frihjulet til hubben:
 
-![](spike-frihjul.jpeg)
+![](spike-frihjul.jpg)
 
 Forbind hjulet til motoren:
-![](spike-hjul-1.jpeg)
+
+![](spike-hjul-1.jpg)
 
 Forbind motoren til hubben:
-![](spike-hjul-2.jpeg)
+
+![](spike-hjul-2.jpg)
 
 ### Så er du klar!
 
@@ -38,13 +40,14 @@ Når du er forbundet ser det sådan her ud i toppen af vinduet:
 
 ![](tilslut-status.png)
 
-# Brug kategori bevægelse (LYSERØD/PINK)
+# Brug kategori lyserød/bevægelse
 
 I løbet af 3 opgaver skal I mestre bevægelses blokkene. I skal programmere robotten til at køre lige ud, dreje 90 grader og køre rundt i firkant og endelig køre rundt i en cirkel.
 
 ## Opgave 1: bevæg i en lige linje
+
 Under beægelse skal du bruge, disse tre blokke for at få robotten til at køre i en lige linje:
- 
+
 ![](bevæg-sæt-bevægelsesmotorer.png)
 
 ![](bevæg-sæt-bevægelseshastighed.png)
@@ -52,7 +55,8 @@ Under beægelse skal du bruge, disse tre blokke for at få robotten til at køre
 ![](bevæg-cm.png)
 
 #### Husk at skifte fra omdrejninger til cm!
-#### Jo hurtigere robotten kører jo mere upræcis - start med 30% eller langsommere!	
+
+#### Jo hurtigere robotten kører jo mere upræcis - start med 30% eller langsommere!
 
 Sæt dem efter blokken "når programmet starter", med blokken "bevæg [tal] omdrejninger" til sidst:
 
@@ -87,10 +91,12 @@ Under bevægelse skal du bruge "bevæg [retning] [50] [omdrejninger]":
 
 ### Du skal finde ud af hvor mange omdrejninger motoren skal tage for at dreje robotten 90°,180°,270°,360° grader: hint (1) brug kommatal (2) papir og blyant til at måle hvor meget robotten har drejet!
 
-
 ### ANTAL OMDREJNINGER 90°: _______
+
 ### ANTAL OMDREJNINGER 180°: _______
+
 ### ANTAL OMDREJNINGER 270°: _______
+
 ### ANTAL OMDREJNINGER 360°: _______
 
 ![](grader.png)
@@ -116,13 +122,21 @@ Brug "bevæg [højre] [20] [omdrejninger]".
 
 ### ANTAL OMDREJNINGER: _______
 
-
 Skift nu hvor skarpt robotten drejer til **100**. Hvor mange omgange kører den?
 
 ### ANTAL omgange: _______
 
+# Eksempel: skraber & klo
 
-# Sensor (LYSEBLÅ)
+![](byg-skraber.jpg)
+
+![](byg-skraber-monteret.jpg)
+
+![](byg-skraber-klo.jpg)
+
+![](byg-skraber-klo-monteret.jpg)
+
+# EKSTRA: Sensor (LYSEBLÅ)
 
 ## Opgave 6: ultralyd-sensor
 
@@ -158,7 +172,6 @@ Det færdige program ser sådan her ud. Find ud af hvor meget I skal trække fra
 
 ![](kør-tilkasse.png)
 
-
 # Selvkørende robot med ultralyd
 
 ## Opgave 7: motorstyring - kør lige
@@ -174,6 +187,7 @@ For at vælge flere motorer til at stoppe skal du trykke på A og vælge flere. 
 ![](motorer-stop-flere.png)
 
 Programmet skrevet med almindelige ord er sådan:
+
 * A+B Sæt hastighed til 35%
 * A Start motor, retning venstre
 * B Start motor, retning højre
@@ -187,6 +201,7 @@ Når robotten har kørt i 2 sekunder skal den dreje og køre i en anden retning.
 Når begge motorer kører i samme retning drejer robotten.
 
 Med samme blokke som sidste opgave lave nu følgende program med blokke til at styre robotten:
+
 * A+B Sæt hastighed til 35%
 * A Start motor, retning venstre
 * B Start motor, retning højre
@@ -217,20 +232,21 @@ Programmets kontrol-blokke skal stilles sådan op:
 ![](autonom-robot-struktur.png)
 
 Skriver vi koden med ord ser det sådan ud:
+
 * A+B Sæt hastighed til 35%
 * A Start motor, retning: venstre
 * B Start motor, retning: højre
 * For evigt:
-	- hvis <D er tættere på end **tal** cm> så
-		+ A Start motor, retning: venstre
-		+ B Start motor, retning: højre
-		+ vent 2 sekunder
-		+ A Start motor, retning: venstre
-		+ B Start motor, retning: venstre
-		+ vent 1 sekund
-	- ellers:
-		+ A Start motor, retning: venstre
-		+ B Start motor, retning: højre
+  - hvis <D er tættere på end **tal** cm> så
+    + A Start motor, retning: venstre
+    + B Start motor, retning: højre
+    + vent 2 sekunder
+    + A Start motor, retning: venstre
+    + B Start motor, retning: venstre
+    + vent 1 sekund
+  - ellers:
+    + A Start motor, retning: venstre
+    + B Start motor, retning: højre
 
 ## Opgave 10: mere tilfældighed!
 
@@ -243,15 +259,15 @@ Prøv nu at ændre hvordan den gør ved at sætte tilfældige tal ind i ventetid
 Kan du gøre det tilfældigt om den drejer til den ene eller den anden side - bliv inspireret af følgende kode skrevet med ord:
 
 * hvis tilfældigt tal mellem 0 og 1 er lig med 1, så:
-	- drej den ene vej
+  - drej den ene vej
 * ellers
-	- drej den anden vej
-	
- Brug disse blokke:
- 
- ![](autonom-robot-random-sving.png)
- 
- ## Opgave 12: styr robotten med farvesensoren
+  - drej den anden vej
+
+Brug disse blokke:
+
+![](autonom-robot-random-sving.png)
+
+## Opgave 12: styr robotten med farvesensoren
 
 ![](sensor-farve-monteret.jpg)
 
@@ -266,4 +282,3 @@ Brug f.eks. disse blokke til at køre frem, tilbage, venstre, højre og langsomt
 ![](sensor-farver-events.png)
 
 #### Det kan være en ide at robotten kører langsomt når den ikke ser nogen farver - f.eks. med motorhastighed 10-20%
-
